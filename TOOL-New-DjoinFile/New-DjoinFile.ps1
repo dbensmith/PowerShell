@@ -37,7 +37,7 @@ function New-DjoinFile {
         [Parameter(Mandatory = $true)]
         [System.String]$Blob,
         [Parameter(Mandatory = $true)]
-        [System.IO.FileInfo]$DestinationFile = "c:\temp\djoin.tmp"
+        [System.IO.FileInfo]$DestinationFile
     )
 
     PROCESS {
